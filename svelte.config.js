@@ -10,6 +10,9 @@ const config = {
 		}),
 		paths: {
 			base: '/prueba-actividad-2'
+		},
+		prerender: {
+			entries: ['*']
 		}
 	}
 };
